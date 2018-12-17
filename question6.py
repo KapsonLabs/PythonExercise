@@ -6,7 +6,6 @@ Square numbers inbetween
 """
 
 def square():
-    squares_list = [num**2 for num in range(1,21)]
-    print(squares_list[0:5])
+    print([num**2 for num in range(1,21)][0:5])
 
 square()
